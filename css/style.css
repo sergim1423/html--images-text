@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+p {
+  font-size: large;
+  color: gray;
+}
+ul {
+  padding-left: 40%;
+  text-align: left;
+}
+li {
+  color: green;
+}
+figcaption {
+  color: blue;
+}
+
+body {
+  background-color: azure;
+}
+header {
+  text-align: center;
+}
+body {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+.logo {
+  max-width: 50%;
+  height: auto;
+  width: 15%;
+}
+.avataar {
+  max-width: 100%;
+  height: auto;
+  width: 35%;
+}
