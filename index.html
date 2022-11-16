@@ -5,18 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
     <title>About Me</title>
   </head>
   <body>
     <header>
-      <img src="img/logo-96X96.svg" class="logo" alt="Blue oragami bird" />
-      <h1>Web Dev 1</h1>
+        <nav class = "navbar">
+          <div class ="logo"></div>
+          <img src="img/logo-96X96.svg" class="logo-1" alt="Blue oragami bird" />
+          <h1>Web Dev 1</h1>
+          <div class = "navbar-links">
+            <ul>
+              <li><a href="#bio"> Bio</a></li>
+              <li><a href="#gallery"> Gallery</a></li>
+              <li><a href="#lit"> Blog</a></li>
+              <li><a href="#contact"> Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+
     </header>
 
     <main>
       <img src="img/avataaars.png" class="avataar" alt="My avataar" />
       <div>
-        <p>Sergi Manolov</p>
+        <p><a id = "bio"></a>Sergi Manolov</p>
         <p>Washington,Nj</p>
       </div>
       <!--bio section-->
@@ -32,7 +45,7 @@
           <li>Hiking</li>
         </ul>
       </div>
-      <h2>Photo Gallery</h2>
+      <h2><a id = "gallery"></a>Photo Gallery</h2>
       <hr />
       <figure>
         <img src="img/snowboarding-640w.jpg" alt="Snowboarding" />
@@ -42,7 +55,7 @@
         <img src="img/hiking-640w.jpg" alt="Hiking" />
         <figcaption>Figure.3 - Hiking, Mount Tammany, New Jersey</figcaption>
       </figure>
-      <article>
+      <article><a id = "lit"></a>
         <h2>Dr Jekyll and Mr Hyde</h2>
         <div>
           <p>
@@ -126,7 +139,8 @@
     </main>
     <footer>
       <p>Author: Sergi Manolov</p>
-      <p><a href="mailto:sergi.m.1423@gmail.com">sergi.m.1423@gmail.com</a></p>
+      <p><a id = "contact">Contact Me Here</a>
+      <br><a href="mailto:sergi.m.1423@gmail.com">sergi.m.1423@gmail.com</a></p>
     </footer>
   </body>
 </html>
