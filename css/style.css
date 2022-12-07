@@ -8,18 +8,18 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: #ffffff;
 }
 p {
   font-size: large;
-  color: gray;
+  color: #808080;
 }
 ul {
   align-items: center;
 }
 li {
   list-style: none;
-  color: green;
+  color: #008000;
 }
 figure {
   display: flex;
@@ -27,7 +27,7 @@ figure {
   align-items: center;
 }
 figcaption {
-  color: blue;
+  color: #0000ff;
 }
 
 header {
@@ -35,7 +35,7 @@ header {
 }
 body {
   text-align: center;
-  background-color: black;
+  background-color: #000000;
 }
 img {
   max-width: 100%;
