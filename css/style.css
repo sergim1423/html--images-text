@@ -19,7 +19,7 @@ ul {
 }
 li {
   list-style: none;
-  color: #008000;
+  color: rgb(32, 178, 170);
 }
 figure {
   display: flex;
@@ -27,7 +27,7 @@ figure {
   align-items: center;
 }
 figcaption {
-  color: #0000ff;
+  color: #add8e6;
 }
 
 header {
