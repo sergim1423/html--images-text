@@ -64,6 +64,9 @@ article {
   column-gap: 2em;
   column-rule: 1px dotted #ddd;
 }
+label {
+  color: white;
+}
 #myVideo {
   position: relative;
   padding-bottom: 56.25%;
