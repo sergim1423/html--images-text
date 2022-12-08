@@ -5,18 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/x-icon" href = "img/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <title>About Me</title>
   </head>
   <body>
     <header>
-      <img src="img/logo-96X96.svg" class="logo" alt="Blue oragami bird" />
-      <h1>Web Dev 1</h1>
+        <nav class = "navbar">
+          <div class ="logo"><img src="img/logo.svg" class="img" alt="SM initials" />
+            <h1>Web Dev 1</h1></div>
+          <div class = "navbar-links">
+            <ul>
+              <li><a href="#bio"> Bio</a></li>
+              <li><a href="#gallery"> Gallery</a></li>
+              <li><a href="#lit"> Blog</a></li>
+              <li><a href="#contact"> Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+
     </header>
 
     <main>
       <img src="img/avataaars.png" class="avataar" alt="My avataar" />
       <div>
-        <p>Sergi Manolov</p>
+        <p><a id = "bio"></a>Sergi Manolov</p>
         <p>Washington,Nj</p>
       </div>
       <!--bio section-->
@@ -32,7 +62,7 @@
           <li>Hiking</li>
         </ul>
       </div>
-      <h2>Photo Gallery</h2>
+      <h2><a id = "gallery"></a>Photo Gallery</h2>
       <hr />
       <figure>
         <img src="img/snowboarding-640w.jpg" alt="Snowboarding" />
@@ -42,7 +72,7 @@
         <img src="img/hiking-640w.jpg" alt="Hiking" />
         <figcaption>Figure.3 - Hiking, Mount Tammany, New Jersey</figcaption>
       </figure>
-      <article>
+      <article><a id = "lit"></a>
         <h2>Dr Jekyll and Mr Hyde</h2>
         <div>
           <p>
@@ -148,7 +178,8 @@
     </main>
     <footer>
       <p>Author: Sergi Manolov</p>
-      <p><a href="mailto:sergi.m.1423@gmail.com">sergi.m.1423@gmail.com</a></p>
+      <p><a id = "contact">Contact Me Here</a>
+      <br><a href="mailto:sergi.m.1423@gmail.com">sergi.m.1423@gmail.com</a></p>
     </footer>
   </body>
 </html>

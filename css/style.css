@@ -1,4 +1,5 @@
 h1 {
+  color: white;
   text-align: center;
   font-size: xx-large;
 }
@@ -7,19 +8,18 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: #ffffff;
 }
 p {
   font-size: large;
-  color: gray;
+  color: #808080;
 }
 ul {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 li {
-  color: green;
+  list-style: none;
+  color: rgb(32, 178, 170);
 }
 figure {
   display: flex;
@@ -27,7 +27,7 @@ figure {
   align-items: center;
 }
 figcaption {
-  color: blue;
+  color: #add8e6;
 }
 
 header {
@@ -35,25 +35,25 @@ header {
 }
 body {
   text-align: center;
-  background-color: black;
+  background-color: #000000;
 }
 img {
   max-width: 100%;
-  height: 40%;
-  display: block;
+  height: 20%;
+  display: flex;
   margin-right: auto;
   margin-left: auto;
-  width: 40%;
+  width: 20%;
 }
-.logo {
-  max-width: 50%;
-  height: 10%;
-  width: 15%;
-}
+/* .logo {
+  max-width: 100%;
+  height: 10vw;
+  width: 10vw;
+} */
 .avataar {
   max-width: 100%;
-  height: 25%;
-  width: 20%;
+  height: 15%;
+  width: 10%;
 }
 * {
   box-sizing: border-box;
@@ -74,8 +74,8 @@ label {
   margin-top: 100px;
   height: 0;
   overflow: hidden;
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  height: 60%;
   margin: 0 auto;
 }
 #myVideo iframe {
@@ -83,7 +83,7 @@ label {
   top: auto;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 50%;
 }
 @media only screen and (min-width: 600px) {
   body {
@@ -96,8 +96,8 @@ label {
     margin-top: 100px;
     height: 0;
     overflow: hidden;
-    width: 70%;
-    height: 70%;
+    width: 40%;
+    height: 40%;
     margin: 0 auto;
   }
   #myVideo iframe {
@@ -105,6 +105,6 @@ label {
     top: auto;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 40%;
   }
 }
