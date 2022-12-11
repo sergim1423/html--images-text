@@ -23,7 +23,9 @@
 ### Green(#008000):
 ![image](https://user-images.githubusercontent.com/67722057/206270281-bda72ad7-83aa-43ab-8388-d7bd1244ddd1.png)
 
-### Sources: https://css-tricks.com/css-sprites/
+### Sources:
+
+https://css-tricks.com/css-sprites/
 
 https://www.w3schools.com/css/css_image_sprites.asp
 
