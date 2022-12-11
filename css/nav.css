@@ -32,6 +32,21 @@ main {
     margin-bottom: 1rem;
     padding: 1rem;
 }
+/* Style the hamburger menu */
+/* .navbar a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 3%;
+}
+.navbar a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+} */
 
 /* logo */
 
@@ -44,27 +59,31 @@ main {
 }
 
 .logo img {
-    height: 12vw;
+    height: 10vw;
     width: 55%;
 }
 
 .logo h1 {
     font-size: 1.1rem;
 }
+.img-logo{
+    height: 10%;
+    width: 10%;
+}
 /* navigation list */
 
-.navbar-links li {
+/* .navbar-links li {
     list-style: none;
     display: block;
     padding: 0.5em 0;
-}
+} */
 
 /*  
  style all a tags in header 
  and then on hover
 */
 
-.navbar-links a {
+/* .navbar-links a {
     color: whitesmoke;
     background-attachment: #333;
     font-size: 2rem;
@@ -72,7 +91,7 @@ main {
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
-}
+} */
 
 .navbar-links a:hover,
 .navbar-links a:focus {
@@ -80,7 +99,51 @@ main {
     border-radius: 10px;
     outline: none;
 }
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
 
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: slategray;
+  display: block;
+  position: absolute;
+  /* padding: 20px 20px; */
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: lightcyan;
+  color: black;
+}
 
 /* 
 media query for non-mobile nav bar

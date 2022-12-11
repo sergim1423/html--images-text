@@ -24,11 +24,12 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>About Me</title>
   </head>
   <body>
     <header>
-        <nav class = "navbar">
+        <!-- <nav class = "navbar">
           <div class ="logo"><img src="img/logo.svg" class="img" alt="SM initials" />
             <h1>Web Dev 1</h1></div>
           <div class = "navbar-links">
@@ -38,8 +39,29 @@
               <li><a href="#lit"> Blog</a></li>
               <li><a href="#contact"> Contact</a></li>
             </ul>
-          </div>
+          </div> -->
+          <div class="topnav">
+  <a href="#home" class="active"><img src="img/logo.svg" class="img-logo" alt="SM initials"/>Web Dev 1</a>
+  <div id="myLinks">
+    <a href="#bio">Bio</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#lit">Blog</a>
+    <a href="#contact">Contact</a>
+  </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
         </nav>
+  </a>
 
     </header>
 
