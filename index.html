@@ -46,21 +46,41 @@
     <main>
       <img src="img/avataaars.png" class="avataar" alt="My avataar" />
       <div>
-        <p><a id = "bio"></a>Sergi Manolov</p>
-        <p>Washington,Nj</p>
+        <h2><a id = "bio"></a>Sergi Manolov</h2>
+        <h3> BIO </h3>
+        <p>Im from, Washington,Nj</p>
       </div>
       <!--bio section-->
       <div>
-        <p>I want to be...</p>
-        <p>A good programmer</p>
+        <p>
+          Hi there, welcome to my website that will give you a little insight on who I am.</p>
+        <p>Im a student at RVCC and im studying Computer Programming.</p>
+          <p>I just turned 22 a couple weeks ago and im starting to feel it.</p>
+          <p>One thing that is a big part of my life is that im a Christian.</p>
+          <p>A lot of my time and effort is spent at church volunteering and helping with whatever is going on.</p>
+          <p>Currently we are preparing a Christmas play and that has been going well.</p>
+          <p>Some other things about me is that im an avid tea drinker.</p>
+          <p>I like my teas and prefer them over coffee any day of the week.</p>
+          <p>Another neat fact about me is that I am Moldovian, I know a lot of people don’t know where that is so I will clarify.</p>
+          <p>Moldova is a tiny country right under Ukraine.</p>
+          <p>The common language over there is Russian so I speak that language also.</p>
+          <p>Although I was born in the United States I still claim to be Moldovian because thats where my parents are from.</p>
+          <p>I will leave you with one more neat fact about me and that is that, I play the saxophone in a band for my church.</p>
+          <p>I have been playing for around 10 years and even though I have all that experience there is still a lot more ways to improve.
+        </p>
       </div>
+      <div> Picture of Me </div>
       <div>
         <h2>Hobbies List</h2>
+        <p class = "hobbies-1">My hobbies include, all things snow and winter related.</p>
         <ul>
-          <li>Snowboarding</li>
-          <li>Snowmobiling</li>
-          <li>Hiking</li>
+          <li>I love to snowboard</li>
+          <li>I also love snowmobiling</li>
+          <li>Another thing I love is hiking</li>
+          <li>I also like reading interesting books</li>
+          <li>Last but not least I also love cooking and eating good food.</li>
         </ul>
+        <p class="hobbies-1">Don’t know if that counts as a hobby but I like doing those things.</p>
       </div>
       <h2><a id = "gallery"></a>Photo Gallery</h2>
       <hr />
@@ -73,71 +93,68 @@
         <figcaption>Figure.3 - Hiking, Mount Tammany, New Jersey</figcaption>
       </figure>
       <article><a id = "lit"></a>
-        <h2>Dr Jekyll and Mr Hyde</h2>
+        <h2>CSS Sprites</h2>
         <div>
           <p>
-            “One word,” said the lawyer. “Carew was my client, but so are you,
-            and I want to know what I am doing. You have not been mad enough to
-            hide this fellow?”
+            The topic im going to write about is CSS Sprites.
+            Im going to explain what they are, why to use them and what they look like.
+            So first lets start out by explaining what a sprite is.
+            A sprite is essentially a combination of multiple images that form one image file for use on a website.
+            For example if I have multiple images of the same kind of topic, we can create a sprite by combining these images into a single file.
+            And now this single file contains all these images and we can format it nicely.
+            To visualize it we can look at this popular example. 
+          </p>
+          <img src="img/sprite-test.jpg" alt="sprite-img" id="sprite-size" />
+          <p>
+            We see how there are 3 different flags but its combined to make a single sprite. 
           </p>
 
           <p>
-            “Utterson, I swear to God,” cried the doctor, “I swear to God I will
-            never set eyes on him again. I bind my honour to you that I am done
-            with him in this world. It is all at an end. And indeed he does not
-            want my help; you do not know him as I do; he is safe, he is quite
-            safe; mark my words, he will never more be heard of.”
+            The very cool thing about CSS sprites is that although it takes a bit more memory to store these images.
+             It very useful in real life application.
+              So lets pretend we need a website to load some images.
+               If we have multiple images that are large file sizes it will take a bit longer to load to the screen.
+                Also there are limitations on how many images a server may take.
           </p>
 
           <p>
-            The lawyer listened gloomily; he did not like his friend’s feverish
-            manner. “You seem pretty sure of him,” said he; “and for your sake,
-            I hope you may be right. If it came to a trial, your name might
-            appear.”
+            CSS Sprites fix these issues by creating one file for all these images.
+             So the server will be able to load this one big file and save time on the amount of server requests.
+              And to access these images we specify the location the coordinates of where these images are.
           </p>
 
           <p>
-            “I am quite sure of him,” replied Jekyll; “I have grounds for
-            certainty that I cannot share with any one. But there is one thing
-            on which you may advise me. I have--I have received a letter; and I
-            am at a loss whether I should show it to the police. I should like
-            to leave it in your hands, Utterson; you would judge wisely, I am
-            sure; I have so great a trust in you.”
+           Each image in the file has a set location.
+            To be able to see the image on screen we need to type in the location of the specific image we need.
+            So for example if we have 3 different images and want to access the first image.
+             We would type in the location of said image we want to access. 
           </p>
 
           <p>
-            “You fear, I suppose, that it might lead to his detection?” asked
-            the lawyer.
+          This is where sprites become super useful and Id say almost crucial in building a website.
+           Especially when the goal is to optimize the response of the page and make it load all the information fast and more efficiently.
           </p>
 
           <p>
-            “No,” said the other. “I cannot say that I care what becomes of
-            Hyde; I am quite done with him. I was thinking of my own character,
-            which this hateful business has rather exposed.”
+           Now that we know what sprites do.
+            Lets look at how we can utilize them and how they look like on a website.
+             We are going to take the same image of the flags but this time show one at a time at separate locations.
           </p>
 
           <p>
-            Utterson ruminated awhile; he was surprised at his friend’s
-            selfishness, and yet relieved by it. “Well,” said he, at last, “let
-            me see the letter.”
+            There are more things we can do with sprites.
+             We can add a hover effect over the image if we want to.
+              And the concept is the exact same as revealing the image.
+               All we do is layer a slightly darker image when the cursor goes over said image.
+                This makes the page pop more and feel a lot more interactive.
+                 It gives the user something to interact with and is a nice tough to keep the user on the site and it gives an overall better browsing experience.
           </p>
 
-          <p>
-            The letter was written in an odd, upright hand and signed “Edward
-            Hyde”: and it signified, briefly enough, that the writer’s
-            benefactor, Dr. Jekyll, whom he had long so unworthily repaid for a
-            thousand generosities, need labour under no alarm for his safety, as
-            he had means of escape on which he placed a sure dependence. The
-            lawyer liked this letter well enough; it put a better colour on the
-            intimacy than he had looked for; and he blamed himself for some of
-            his past suspicions.
-          </p>
-
-          <p>“Have you the envelope?” he asked.</p>
+          <p>So now that we know a little bit more about sprites its time to put them to use and apply them to our websites to optimize them.
+             We might not see a difference with my small website but when we build large scale websites knowing about sprites and how they help make less server requests, there will be a clear difference and we will see how necessary sprites are.</p>
 
           <p>
-            “I burned it,” replied Jekyll, “before I thought what I was about.
-            But it bore no postmark. The note was handed in.”
+            It best to get in a habit of adding them in now while still learning so we can slowly grow into larger scale websites. 
           </p>
         </div>
       </article>
@@ -162,7 +179,7 @@
             <input type="text" id="Name" name="contact" value="" /><br />
             <label for="Email">Email:</label>
             <input type="text" id="Email" name="contact" value="" /><br />
-            <label for="Phone">Phone Type:</label>
+            <label for="Phone">Phone #:</label>
             <input type="text" id="Phone" name="contact" value="" /><br />
             <label for="phones">Phone Type</label>
             <select name="Phones" id="phones">

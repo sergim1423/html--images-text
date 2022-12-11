@@ -10,6 +10,13 @@ h2 {
   align-items: center;
   color: #ffffff;
 }
+h3 {
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
 p {
   font-size: large;
   color: #808080;
@@ -29,7 +36,10 @@ figure {
 figcaption {
   color: #add8e6;
 }
-
+.hobbies-1{
+ color: whitesmoke;
+ font-size: larger;
+}
 header {
   text-align: center;
 }
@@ -45,6 +55,11 @@ img {
   margin-left: auto;
   width: 20%;
 }
+/* #sprite-size{
+ height: 160px;
+  width: 160px;
+} */
+
 /* .logo {
   max-width: 100%;
   height: 10vw;
