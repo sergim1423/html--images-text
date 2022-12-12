@@ -23,6 +23,11 @@
 ### Green(#008000):
 ![image](https://user-images.githubusercontent.com/67722057/206270281-bda72ad7-83aa-43ab-8388-d7bd1244ddd1.png)
 
+### Updated nav bar to a hamburger style where it opens and closes. 
+### All the links work and it functions beautifully. In order to use it all that has to happen is click on the small 3 things in the top right corner and it will load all the options on the page.
+
+### Id say this design isnt final, the flow and what goes on the page might be somewhat finished but need to tweak a lot of things to make it look professional. 
+
 ### Sources:
 
 https://css-tricks.com/css-sprites/
@@ -30,6 +35,8 @@ https://css-tricks.com/css-sprites/
 https://www.w3schools.com/css/css_image_sprites.asp
 
 https://www.tutorialrepublic.com/css-tutorial/css-sprites.php
+
+https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
 
 BSD 2-Clause License

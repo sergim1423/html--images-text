@@ -119,7 +119,7 @@ main {
 }
 
 .topnav a {
-  color: black;
+  color: whitesmoke;
   padding: 10px 20px;
   text-decoration: none;
   font-size: 17px;
@@ -127,7 +127,7 @@ main {
 }
 
 .topnav a.icon {
-  background: slategray;
+  background: rgb(71, 81, 90);
   display: block;
   position: absolute;
   /* padding: 20px 20px; */
@@ -141,8 +141,8 @@ main {
 }
 
 .active {
-  background-color: lightcyan;
-  color: black;
+  background-color: rgb(71, 81, 90);
+  color: whitesmoke;
 }
 
 /* 
