@@ -136,8 +136,8 @@ main {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(102, 101, 101);
+  color: whitesmoke;
 }
 
 .active {
